@@ -1,11 +1,11 @@
 // Mixins in here
 
-.button-style() {
-    background-color: darken(@button-bg, 10%);
+.button-style(@bg-color, @width) {
+    background-color: @bg-color;
     text-align: center;
     font-size: 1.9rem;
     padding: 10px;
     color: @main-bg;
     border-radius: 10px;
-    width: 85%;
+    width: @width;
 }
