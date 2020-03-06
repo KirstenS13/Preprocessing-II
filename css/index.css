@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212529;
 }
 h1,
 h2,
@@ -179,6 +180,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /*display: flex;
+        justify-content: space-between;
+        align-items: center;*/
 }
 @media ( max-width: 500px ) {
   .nav-bar-wrapper .nav-bar {
@@ -195,6 +199,9 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /*display: flex;
+            justify-content: space-around;
+            align-items: center;*/
 }
 @media ( max-width: 500px ) {
   .nav-bar-wrapper .nav-bar nav {

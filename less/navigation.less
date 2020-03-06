@@ -8,9 +8,11 @@
         max-width: 800px;
         width: 100%;
         margin: 20px auto;
-        display: flex;
+
+        .flex-layout(space-between, center);
+        /*display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;*/
 
         @media @mobile {
             flex-direction: column;
@@ -24,9 +26,11 @@
     
         nav {
             width: 60%;
-            display: flex;
+
+            .flex-layout(space-around, center);
+            /*display: flex;
             justify-content: space-around;
-            align-items: center;
+            align-items: center;*/
 
             @media @mobile {
                 width: 100%;
