@@ -1,1 +1,42 @@
 // Navigation Styles here
+
+.nav-bar-wrapper {
+    width: 100%;
+    border-bottom: 2px dashed @navigation-border;
+
+    .nav-bar {
+        max-width: 800px;
+        width: 100%;
+        margin: 20px auto;
+
+        .flex-layout(space-between, center);
+
+        @media @mobile {
+            flex-direction: column;
+        }
+
+        h1 {
+            @media @mobile {
+                padding-bottom: 20px;
+            }
+        }
+    
+        nav {
+            width: 60%;
+
+            .flex-layout(space-around, center);
+
+            @media @mobile {
+                width: 100%;
+            }
+    
+            a {
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
